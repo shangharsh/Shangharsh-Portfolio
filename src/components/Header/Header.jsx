@@ -10,7 +10,7 @@ const Header = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand>
-            <Link to='/' className=' fs-4 fw-light text-decoration-none text-black border border-1 ps-2 pe-2 border-primary'>S.A</Link>
+            <Link to='/' className=' fs-4 fw-light text-decoration-none text-black border border-1 ps-2 pe-2 border-primary box_shadow_hover'>S.A</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

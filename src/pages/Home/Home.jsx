@@ -35,13 +35,10 @@ const Home = () => {
   <FaGithubSquare size={32}/>
   </Link>
   </div>
-  {/* <Link className='text-primary'>
-  <IoMdMail size={32} />
-  </Link> */}
 </ListGroup>
 </Card.Body>
 
-<Card.Img variant='top' className='w-25' src='/pic.png' alt='my_image'/>
+<Card.Img variant='top' className='w-25 box_shadow_hover' src='/pic.png' alt='my_image'/>
 
 </Card>
 
