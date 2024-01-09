@@ -23,16 +23,16 @@ const Home = () => {
 
   <ListGroup className='w-100 border-0 mt-3'>
   <div className='d-flex justify-content-between align-items-center'>
-  <Link className='text-primary hover-act'>
+  <Link to='https://www.facebook.com/shang.adh/' className='text-primary hover-act'>
   <FaFacebookSquare size={32}/>
   </Link>
-  <Link className='text-primary hover-act'>
+  <Link to='https://www.instagram.com/shangharsh_/' className='text-primary hover-act'>
   <FaSquareInstagram size={32} />
   </Link>
-  <Link className='text-primary hover-act'>
+  <Link to='https://www.linkedin.com/in/shangharsh-adhikari-4a7b89243/' className='text-primary hover-act'>
   <FaLinkedin size={32} />
   </Link>
-  <Link className='text-primary hover-act'>
+  <Link to='https://github.com/shangharsh' className='text-primary hover-act'>
   <FaGithubSquare size={32}/>
   </Link>
   </div>
