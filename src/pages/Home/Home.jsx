@@ -10,6 +10,7 @@ import Skills from '../../components/Skills/Skills';
 
 
 const Home = () => {
+
   return (
       <>
       <Card className='box-shadow w-75 fs-3 mt-3 mb-3 ms-auto me-auto d-flex flex-row justify-content-around align-items-center'>
@@ -37,9 +38,7 @@ const Home = () => {
   </div>
 </ListGroup>
 </Card.Body>
-
-<Card.Img variant='top' className='w-25 box_shadow_hover' src='/pic.png' alt='my_image'/>
-
+  <Card.Img variant='top' className='w-25 box_shadow_hover' src='/pic.png' alt='my_image'/>
 </Card>
 
 <Skills/>
