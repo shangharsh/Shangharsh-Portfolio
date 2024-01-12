@@ -13,13 +13,13 @@ const App = () => {
       <BrowserRouter>
         <Header/>
         <Alert variant="filled" className="w-50 mt-0 mb-0 ms-auto me-auto" severity="warning">
-          This Website is UnderConstruction. Sorry for the inconvenienc. — check it out later!
+          This Website is UnderConstruction. Sorry for the inconvenience. — check it out later!
         </Alert>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/projects" element={<Projects/>} />
-          <Route path="/projectdetails" element={<ProjectDetails/>} />
+          <Route path="/projectdetails/:id" element={<ProjectDetails />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

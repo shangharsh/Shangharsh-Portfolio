@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useId } from 'react'
 import ProjectInfo from '../../data/ProjectInfo';
+import Details from '../../components/Details/Details';
+import { useParams } from 'react-router-dom';
 
 
 const ProjectDetails = () => {
+  
+  const {id} = useParams();
+  console.log(id);
+
   return (
-    <div>ProjectDetails</div>
+    <>
+    {
+        ProjectInfo.filter(item=>item.id == id).map(filteredItem=>(
+          <Details key={id} image={filteredItem.image} about={filteredItem.about} title={filteredItem.title} githubLink={filteredItem.githubLink} liveDemo={filteredItem.liveDemo}/>
+        ))
+    }
+    </>
   )
 }
 
