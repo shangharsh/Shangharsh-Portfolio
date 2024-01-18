@@ -1,5 +1,5 @@
 import React, { useId } from 'react'
-import ProjectInfo from '../../data/ProjectInfo';
+import ProjectInfo from '../../source/ProjectInfo';
 import Details from '../../components/Details/Details';
 import { useParams } from 'react-router-dom';
 

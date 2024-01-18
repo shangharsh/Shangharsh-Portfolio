@@ -29,3 +29,7 @@ transition: .2s ease-in;
 .text_justify{
   text-align: justify;
 }
+
+.custom_shadow{
+  filter: drop-shadow(5px 1px 5px#111111);
+}

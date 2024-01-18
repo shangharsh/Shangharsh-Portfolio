@@ -1,7 +1,7 @@
 import React, { useId } from 'react'
 import { Button, Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import ProjectInfo from '../../data/ProjectInfo'
+import ProjectInfo from '../../source/ProjectInfo'
 
 const Projects = () => {
   // const showId = (e, id) =>{
