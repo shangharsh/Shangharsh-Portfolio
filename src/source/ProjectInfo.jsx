@@ -14,6 +14,14 @@ const ProjectInfo = [
         githubLink: 'https://github.com/shangharsh/Vite-Ecom',
         liveDemo: 'https://vite-ecom.vercel.app/',
         about: 'Ecommerce site developed using Vite with DummyJson API. In this site user must sign in to navigate to the product page and also to use the other features like: Counter, Live Counter.'
+    },
+    {
+        id: 3,
+        title: 'Todo List',
+        image: '/Todo-List.PNG',
+        githubLink: 'https://github.com/shangharsh/To-Do-List',
+        liveDemo: 'https://glittery-quokka-139638.netlify.app/',
+        about: 'This is Todo project, where user can add, edit(update) and delete tasks. This project is created using HTML, CSS, JS and Bootstrap, LocalStorage is Used to holds the data in it. '
     }
 ]
 
