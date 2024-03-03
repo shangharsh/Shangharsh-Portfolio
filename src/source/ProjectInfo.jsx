@@ -22,6 +22,14 @@ const ProjectInfo = [
         githubLink: 'https://github.com/shangharsh/To-Do-List',
         liveDemo: 'https://glittery-quokka-139638.netlify.app/',
         about: 'This is Todo project, where user can add, edit(update) and delete tasks. This project is created using HTML, CSS, JS and Bootstrap, LocalStorage is Used to holds the data in it. '
+    },
+    {
+        id: 4,
+        title: 'Daraz-Clone',
+        image: '/Daraz-Clone.PNG',
+        githubLink: 'https://github.com/shangharsh/Daraz-Clone',
+        liveDemo: 'https://daraz-clone-nu.vercel.app/',
+        about: 'This is E-commerce project( Daraz Clone Application). This Project is created for learning purpose only, where user can order virtually, edit(update), search and delete products. This project is created using HTML, CSS, JS and Bootstrap, LocalStorage is Used to holds the data in it & Dummy JSON was used for Api.'
     }
 ]
 
